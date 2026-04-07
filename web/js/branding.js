@@ -18,8 +18,8 @@ app.registerExtension({
 
         // Watch for any title changes and override them
         const observer = new MutationObserver(() => {
-            if (document.title !== "My Custom UI") {
-                document.title = "My Custom UI";
+            if (document.title !== "Pixel Maven AI") {
+                document.title = "Pixel Maven AI";
             }
         });
 
