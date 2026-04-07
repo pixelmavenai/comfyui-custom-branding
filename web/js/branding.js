@@ -28,7 +28,7 @@ app.registerExtension({
             || document.createElement("link");
         link.rel = "icon";
         link.type = "image/png";
-        link.href = new URL("../favicon.png", import.meta.url).href;
+        link.href = new URL("./favicon.png", import.meta.url).href;
         document.head.appendChild(link);
     }
 });
