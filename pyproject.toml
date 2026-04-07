@@ -1,0 +1,8 @@
+[project]
+name = "comfyui-custom-branding"
+version = "1.0.0"
+description = "Custom branding for ComfyUI tab title and favicon"
+license = { file = "LICENSE" }
+
+[project.urls]
+Repository = "https://github.com/pixelmavenai/comfyui-custom-branding"
