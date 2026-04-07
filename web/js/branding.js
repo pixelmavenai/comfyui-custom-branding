@@ -14,7 +14,7 @@ app.registerExtension({
     name: "custom.branding",
     async setup() {
         // Keep overriding in case ComfyUI resets it
-        document.title = "My Custom UI";
+        document.title = "Pixel Maven AI";
 
         // Watch for any title changes and override them
         const observer = new MutationObserver(() => {
